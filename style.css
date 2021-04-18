@@ -1,0 +1,117 @@
+body {
+    background-color: grey;
+}
+
+/* Első példa CSS */
+
+.container {
+    width: 800px;
+    background-color: #fff;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+}
+
+.form-row {
+    padding: 10px 0;
+    display: flex;
+}
+
+.form-row label {
+    padding-right: 10px;
+}
+
+.form-row input {
+    flex: 1;
+}
+
+/* Első példa CSS vége */
+
+/* Második példa CSS */
+
+.column-layout {
+    max-width: 1300px;
+    background-color: #fff;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.main-column {
+    flex: 1;
+    order: 2;
+}
+
+.sidebar-one {
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-two {
+    flex: 1;
+    order: 3;
+}
+
+/* Második példa CSS vége */
+
+/* Harmadik példa CSS */
+
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+}
+
+.call-out {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+}
+
+@media (min-width: 900px) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.call-out:nth-child(1) {
+    background: #c0dbe2;
+}
+
+.call-out:nth-child(2) {
+    background: #cdf1c3;
+}
+
+.call-out:nth-child(3) {
+    background: #ccb9da;
+}
+
+/* Harmadik példa CSS vége */
+
+/* Negyedik példa CSS */
+
+.fixed-size-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    background-color: #fff;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fixed-size{
+    width: 150px;
+    height: 100px;
+    background: #990b47;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+/* Negyedik példa CSS vége */
